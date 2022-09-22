@@ -1,6 +1,6 @@
 ## Add JSON Color Books
 
-A script for adding decoded JSON Adobe Color Book (.acb) files to the swatches panel in both Illustrator and InDesign.
+An ExtendScript for adding decoded JSON Adobe Color Book (.acb) files to the swatches panel in both Illustrator and InDesign.
 
 # Decoding
 For decoding `.acb` files into JSON you need my fork of Rong Shen's (jacobbubu) `acb repository` (CoffeeScript) at https://github.com/eikepm/acb
