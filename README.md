@@ -3,7 +3,7 @@
 An ExtendScript for adding JSON Color Books to the swatches panel in both Illustrator and InDesign. A JSON Color Book is a converted Adobe Color Book `.acb` file.
 
 ## Converting
-For converting Adobe Color Book `.acb` files into JSON Color Book files you need my fork of Rong Shen's (jacobbubu) `acb repository` (CoffeeScript) at https://github.com/eikepm/acb
+For converting Adobe Color Book `.acb` files into JSON Color Book files you need my fork of Rong Shen's (jacobbubu) `acb repository` (CoffeeScript) at https://github.com/eikepm/convert-acb-to-json
 
 ## Usage
 The script will open a file dialog for loading a decoded `.json`. Adding the swatches to your panel might take a while depending on the size of the color book. All the new swatches will be added to it's own group folder. The name of this folder is taken from the JSON file.
