@@ -15,7 +15,7 @@ This script can potentially slow down Illustrator or Indesign when opening large
 Save your work before you execute this script and use at your own risk!
 ```
 
-As a reference: I opened a Color Book with 2k+ colors in Illustrator on a MacBook Pro which took about 3 ~ 4 minutes to finish (during this period Illustrator was unresponsive). Small Color Books load pretty fast.
+As a reference: I opened a Color Book with 2k+ colors in Illustrator on a MacBook Pro (2,3 GHz 8-Core Intel Core i9) which took about 5 ~ 6 minutes to finish (during this period Illustrator was unresponsive). Small Color Books load pretty fast.
 
 ## Notes
 Supported color spaces: RGB, CMYK and LAB.
