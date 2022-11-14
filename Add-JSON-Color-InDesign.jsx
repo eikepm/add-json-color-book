@@ -48,6 +48,7 @@ function createSwatches(records) {
 }
 
 function addSwatch(name, components) {
+  name = name.replace(/pantone/gi, "PMS");
   if (!checkSwatch(name)) {
     if (isSpot) {
       var model = ColorModel.SPOT;

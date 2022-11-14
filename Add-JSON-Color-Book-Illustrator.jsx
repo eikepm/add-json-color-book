@@ -42,6 +42,7 @@ function createSwatches(records) {
 }
 
 function addSwatch(name, components) {
+  name = name.replace(/pantone/gi, "PMS");
   if (!checkSwatch(name)) {
     if (colorspace === "RGB") {
       var color = new LabColor();
